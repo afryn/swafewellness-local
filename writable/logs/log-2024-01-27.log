@@ -1,0 +1,114 @@
+CRITICAL - 2024-01-27 00:55:39 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 03:51:10 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 04:45:51 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 05:52:07 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 10:54:20 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 10:54:29 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 10:55:52 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 11:35:44 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 12:31:49 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 12:45:50 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 16:30:35 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 17:47:40 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 19:11:47 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 21:17:42 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 22:06:01 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 22:48:28 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 23:05:53 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 23:27:20 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 23:59:09 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 423.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()

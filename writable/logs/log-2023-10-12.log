@@ -1,0 +1,128 @@
+CRITICAL - 2023-10-12 05:04:21 --> You passed an empty string for 'line_items[0][price_data][product_data][description]'. We assume empty values are an attempt to unset a parameter; however 'line_items[0][price_data][product_data][description]' cannot be unset. You should remove 'line_items[0][price_data][product_data][description]' from your request or supply a non-empty value.
+in FCPATH/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38.
+ 1 FCPATH/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.', 400, '{
+  "error": {
+    "code": "parameter_invalid_empty",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-empty",
+    "message": "You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.",
+    "param": "line_items[0][price_data][product_data][description]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_cZyfO3WwCiHPdp?t=1697087063",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_empty')
+ 2 FCPATH/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.', 400, '{
+  "error": {
+    "code": "parameter_invalid_empty",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-empty",
+    "message": "You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.",
+    "param": "line_items[0][price_data][product_data][description]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_cZyfO3WwCiHPdp?t=1697087063",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_empty', 'line_items[0][price_data][product_data][description]')
+ 3 FCPATH/vendor/stripe/stripe-php/lib/ApiRequestor.php(175): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "parameter_invalid_empty",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-empty",
+    "message": "You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.",
+    "param": "line_items[0][price_data][product_data][description]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_cZyfO3WwCiHPdp?t=1697087063",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH/vendor/stripe/stripe-php/lib/ApiRequestor.php(556): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "parameter_invalid_empty",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-empty",
+    "message": "You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.",
+    "param": "line_items[0][price_data][product_data][description]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_cZyfO3WwCiHPdp?t=1697087063",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH/vendor/stripe/stripe-php/lib/ApiRequestor.php(124): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "parameter_invalid_empty",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-empty",
+    "message": "You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.",
+    "param": "line_items[0][price_data][product_data][description]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_cZyfO3WwCiHPdp?t=1697087063",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(78): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [])
+ 7 FCPATH/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(25): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/sessions', [...], null)
+ 8 APPPATH/Controllers/StripePayment.php(269): Stripe\Checkout\Session::create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\StripePayment->create()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripePayment))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 05:04:50 --> You passed an empty string for 'line_items[0][price_data][product_data][description]'. We assume empty values are an attempt to unset a parameter; however 'line_items[0][price_data][product_data][description]' cannot be unset. You should remove 'line_items[0][price_data][product_data][description]' from your request or supply a non-empty value.
+in FCPATH/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38.
+ 1 FCPATH/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.', 400, '{
+  "error": {
+    "code": "parameter_invalid_empty",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-empty",
+    "message": "You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.",
+    "param": "line_items[0][price_data][product_data][description]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_wACZ6vsdDLN8Kc?t=1697087092",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_empty')
+ 2 FCPATH/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.', 400, '{
+  "error": {
+    "code": "parameter_invalid_empty",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-empty",
+    "message": "You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.",
+    "param": "line_items[0][price_data][product_data][description]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_wACZ6vsdDLN8Kc?t=1697087092",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'parameter_invalid_empty', 'line_items[0][price_data][product_data][description]')
+ 3 FCPATH/vendor/stripe/stripe-php/lib/ApiRequestor.php(175): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "parameter_invalid_empty",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-empty",
+    "message": "You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.",
+    "param": "line_items[0][price_data][product_data][description]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_wACZ6vsdDLN8Kc?t=1697087092",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 FCPATH/vendor/stripe/stripe-php/lib/ApiRequestor.php(556): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "parameter_invalid_empty",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-empty",
+    "message": "You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.",
+    "param": "line_items[0][price_data][product_data][description]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_wACZ6vsdDLN8Kc?t=1697087092",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 FCPATH/vendor/stripe/stripe-php/lib/ApiRequestor.php(124): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "parameter_invalid_empty",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-empty",
+    "message": "You passed an empty string for \'line_items[0][price_data][product_data][description]\'. We assume empty values are an attempt to unset a parameter; however \'line_items[0][price_data][product_data][description]\' cannot be unset. You should remove \'line_items[0][price_data][product_data][description]\' from your request or supply a non-empty value.",
+    "param": "line_items[0][price_data][product_data][description]",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_wACZ6vsdDLN8Kc?t=1697087092",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 FCPATH/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(78): Stripe\ApiRequestor->request('post', '/v1/checkout/sessions', [...], [])
+ 7 FCPATH/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(25): Stripe\ApiResource::_staticRequest('post', '/v1/checkout/sessions', [...], null)
+ 8 APPPATH/Controllers/StripePayment.php(269): Stripe\Checkout\Session::create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\StripePayment->create()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StripePayment))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()

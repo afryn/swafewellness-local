@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "flaticon_yogacare";
+    src: url("flaticon_yogacare.ttf") format("truetype"),
+url("flaticon_yogacare.woff") format("woff"),
+url("flaticon_yogacare.woff2") format("woff2"),
+url("flaticon_yogacare.eot") format("embedded-opentype"),
+url("flaticon_yogacare.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_yogacare !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-verify:before {
+    content: "\f101";
+}
+.flaticon-telephone:before {
+    content: "\f102";
+}
+.flaticon-mail:before {
+    content: "\f103";
+}
+.flaticon-video-camera:before {
+    content: "\f104";
+}
+.flaticon-sleeping:before {
+    content: "\f105";
+}
+.flaticon-muscle-man:before {
+    content: "\f106";
+}
+.flaticon-yoga:before {
+    content: "\f107";
+}
+.flaticon-six-pack:before {
+    content: "\f108";
+}
+.flaticon-left-quote:before {
+    content: "\f109";
+}
+.flaticon-right-quote:before {
+    content: "\f10a";
+}
+.flaticon-sent:before {
+    content: "\f10b";
+}
+.flaticon-nutrition:before {
+    content: "\f10c";
+}
+.flaticon-healthy-food:before {
+    content: "\f10d";
+}
+.flaticon-salad:before {
+    content: "\f10e";
+}
+.flaticon-nutrition-1:before {
+    content: "\f10f";
+}
+.flaticon-nutrition-2:before {
+    content: "\f110";
+}
+.flaticon-diet:before {
+    content: "\f111";
+}
+.flaticon-review:before {
+    content: "\f112";
+}
+.flaticon-report:before {
+    content: "\f113";
+}
+.flaticon-customer-service:before {
+    content: "\f114";
+}
+.flaticon-customer-service-1:before {
+    content: "\f115";
+}
+.flaticon-people:before {
+    content: "\f116";
+}
+.flaticon-search:before {
+    content: "\f117";
+}
+.flaticon-view:before {
+    content: "\f118";
+}
+.flaticon-maple-leaf:before {
+    content: "\f119";
+}
+.flaticon-idea:before {
+    content: "\f11a";
+}
+.flaticon-power:before {
+    content: "\f11b";
+}
+.flaticon-settings:before {
+    content: "\f11c";
+}
+.flaticon-gift:before {
+    content: "\f11d";
+}
+.flaticon-problem-solving:before {
+    content: "\f11e";
+}
+.flaticon-support:before {
+    content: "\f11f";
+}
+.flaticon-badge:before {
+    content: "\f120";
+}
+.flaticon-rating:before {
+    content: "\f121";
+}
+.flaticon-trophy:before {
+    content: "\f122";
+}
+.flaticon-close:before {
+    content: "\f123";
+}
+.flaticon-lotus:before {
+    content: "\f124";
+}
+.flaticon-exercise:before {
+    content: "\f125";
+}
+.flaticon-placeholder:before {
+    content: "\f126";
+}
+.flaticon-yoga-mat:before {
+    content: "\f127";
+}
+.flaticon-meditation:before {
+    content: "\f128";
+}
+.flaticon-fitness:before {
+    content: "\f129";
+}
+.flaticon-play-button:before {
+    content: "\f12a";
+}
+.flaticon-calendar:before {
+    content: "\f12b";
+}
+.flaticon-clock-circular-outline:before {
+    content: "\f12c";
+}
+.flaticon-pin:before {
+    content: "\f12d";
+}

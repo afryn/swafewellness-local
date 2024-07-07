@@ -1,0 +1,98 @@
+INFO - 2023-09-08 05:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 05:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 05:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 05:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 05:56:02 --> Trying to get property 'package_name' of non-object
+in APPPATH/Views/front/programme-detail.php on line 145.
+ 1 APPPATH/Views/front/programme-detail.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'package_name\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php', 145, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/programme-detail', [], true)
+ 5 APPPATH/Controllers/Home.php(80): view('front/programme-detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->programmeDetail('front_assets', 'images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 05:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 06:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 06:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 06:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 06:10:08 --> Trying to get property 'package_name' of non-object
+in APPPATH/Views/front/programme-detail.php on line 145.
+ 1 APPPATH/Views/front/programme-detail.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'package_name\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php', 145, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/programme-detail', [], true)
+ 5 APPPATH/Controllers/Home.php(80): view('front/programme-detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->programmeDetail('front_assets', 'images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 06:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 06:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 06:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 06:15:22 --> Trying to get property 'package_name' of non-object
+in APPPATH/Views/front/programme-detail.php on line 145.
+ 1 APPPATH/Views/front/programme-detail.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'package_name\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php', 145, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/programme-detail', [], true)
+ 5 APPPATH/Controllers/Home.php(80): view('front/programme-detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->programmeDetail('front_assets', 'images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 06:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 06:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 06:19:15 --> Trying to get property 'package_name' of non-object
+in APPPATH/Views/front/programme-detail.php on line 145.
+ 1 APPPATH/Views/front/programme-detail.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'package_name\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php', 145, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/programme-detail', [], true)
+ 5 APPPATH/Controllers/Home.php(80): view('front/programme-detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->programmeDetail('front_assets', 'images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 06:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 06:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 06:19:48 --> Trying to get property 'package_name' of non-object
+in APPPATH/Views/front/programme-detail.php on line 145.
+ 1 APPPATH/Views/front/programme-detail.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'package_name\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php', 145, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/programme-detail', [], true)
+ 5 APPPATH/Controllers/Home.php(80): view('front/programme-detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->programmeDetail('front_assets', 'images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 06:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 06:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 06:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 06:23:08 --> Trying to get property 'package_name' of non-object
+in APPPATH/Views/front/programme-detail.php on line 145.
+ 1 APPPATH/Views/front/programme-detail.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'package_name\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php', 145, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/programme-detail', [], true)
+ 5 APPPATH/Controllers/Home.php(80): view('front/programme-detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->programmeDetail('front_assets', 'images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 06:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 06:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 06:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 06:25:03 --> Trying to get property 'package_name' of non-object
+in APPPATH/Views/front/programme-detail.php on line 145.
+ 1 APPPATH/Views/front/programme-detail.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'package_name\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php', 145, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/programme-detail.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/programme-detail', [], true)
+ 5 APPPATH/Controllers/Home.php(80): view('front/programme-detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->programmeDetail('front_assets', 'images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

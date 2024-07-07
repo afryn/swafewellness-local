@@ -1,0 +1,21 @@
+.passtoggle{
+    position:absolute ;
+    color: grey;
+    top: 34%;
+    right: 10px;
+    cursor: pointer;
+}
+
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: auto;
+    padding: 0.25rem 0.9rem;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.select2-container--default .select2-selection--single {
+
+    border: 1px solid #dbd9d9;
+    }

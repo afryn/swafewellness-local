@@ -1,0 +1,1331 @@
+INFO - 2023-09-02 04:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 04:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 04:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 04:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 04:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 04:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 04:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-02 05:19:58 --> mysqli_sql_exception: Table 'micodetest_swafe_wellness.centers' doesn't exist in /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * FROM c...', 0)
+#1 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 /home/micodetest/public_html/swafewellness/app/Controllers/Home.php(393): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+#5 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/micodetest/public_html/swafewellness/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-02 05:19:58 --> Table 'micodetest_swafe_wellness.centers' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * FROM centers WHERE 13 IN (SELECT unnest(services_offered) FROM sw_centers)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM centers WHERE 13 IN (SELECT unnest(services_offered) FROM sw_centers)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM centers WHERE 13 IN (SELECT unnest(services_offered) FROM sw_centers)')
+ 4 APPPATH/Controllers/Home.php(393): CodeIgniter\Database\BaseConnection->query('SELECT * FROM centers WHERE 13 IN (SELECT unnest(services_offered) FROM sw_centers)')
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 05:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-02 05:20:15 --> mysqli_sql_exception: FUNCTION micodetest_swafe_wellness.unnest does not exist in /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/micodetest/public_html/swafewellness/app/Controllers/Home.php(393): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+#5 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/micodetest/public_html/swafewellness/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-02 05:20:15 --> FUNCTION micodetest_swafe_wellness.unnest does not exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * FROM sw_centers WHERE 13 IN (SELECT unnest(services_offered) FROM sw_centers)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM sw_centers WHERE 13 IN (SELECT unnest(services_offered) FROM sw_centers)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM sw_centers WHERE 13 IN (SELECT unnest(services_offered) FROM sw_centers)')
+ 4 APPPATH/Controllers/Home.php(393): CodeIgniter\Database\BaseConnection->query('SELECT * FROM sw_centers WHERE 13 IN (SELECT unnest(services_offered) FROM sw_centers)')
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 05:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 05:42:10 --> Undefined variable: fetchdata
+in APPPATH/Controllers/Home.php on line 456.
+ 1 APPPATH/Controllers/Home.php(456): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: fetchdata', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 456, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 05:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-02 05:51:18 --> mysqli_sql_exception: Unknown column 'statue' in 'where clause' in /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/micodetest/public_html/swafewellness/app/Controllers/Home.php(401): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+#5 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/micodetest/public_html/swafewellness/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/micodetest/public_html/swafewellness/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-02 05:51:18 --> Unknown column 'statue' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT * FROM sw_centers WHERE statue = 1 AND trash = 0 AND FIND_IN_SET(34, services_offered) > 0 ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM sw_centers WHERE statue = 1 AND trash = 0 AND FIND_IN_SET(34, services_offered) > 0 ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM sw_centers WHERE statue = 1 AND trash = 0 AND FIND_IN_SET(34, services_offered) > 0 ')
+ 4 APPPATH/Controllers/Home.php(401): CodeIgniter\Database\BaseConnection->query('SELECT * FROM sw_centers WHERE statue = 1 AND trash = 0 AND FIND_IN_SET(34, services_offered) > 0 ')
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 05:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 05:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:06:28 --> Undefined variable: center
+in APPPATH/Views/front/available-data.php on line 397.
+ 1 APPPATH/Views/front/available-data.php(397): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: center', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 397, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(460): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:06:51 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/front/available-data.php on line 400.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 4 APPPATH/Controllers/Home.php(460): view('front/available-data', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:10:50 --> Undefined variable: center
+in APPPATH/Views/front/available-data.php on line 408.
+ 1 APPPATH/Views/front/available-data.php(408): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: center', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 408, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(460): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:21:26 --> Undefined variable: center
+in APPPATH/Views/front/available-data.php on line 410.
+ 1 APPPATH/Views/front/available-data.php(410): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: center', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 410, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(460): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:29:20 --> Undefined index: dateSelect
+in APPPATH/Controllers/Home.php on line 448.
+ 1 APPPATH/Controllers/Home.php(448): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: dateSelect', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 448, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:37:18 --> Undefined index: selectedData
+in APPPATH/Controllers/Home.php on line 381.
+ 1 APPPATH/Controllers/Home.php(381): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: selectedData', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 381, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:50:49 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/available-data.php on line 291.
+ 1 APPPATH/Views/front/available-data.php(291): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 291, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(476): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:51:01 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/available-data.php on line 368.
+ 1 APPPATH/Views/front/available-data.php(368): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 368, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(476): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:51:16 --> Trying to get property 'amount' of non-object
+in APPPATH/Views/front/available-data.php on line 411.
+ 1 APPPATH/Views/front/available-data.php(411): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'amount\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 411, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(476): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:52:34 --> Trying to get property 'amount' of non-object
+in APPPATH/Views/front/available-data.php on line 411.
+ 1 APPPATH/Views/front/available-data.php(411): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'amount\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 411, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(478): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:53:17 --> Trying to get property 'amount' of non-object
+in APPPATH/Views/front/available-data.php on line 412.
+ 1 APPPATH/Views/front/available-data.php(412): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'amount\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 412, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(478): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:55:10 --> Trying to get property 'amount' of non-object
+in APPPATH/Views/front/available-data.php on line 411.
+ 1 APPPATH/Views/front/available-data.php(411): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'amount\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 411, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(478): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:57:48 --> Undefined index: dateSelect
+in APPPATH/Controllers/Home.php on line 466.
+ 1 APPPATH/Controllers/Home.php(466): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: dateSelect', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 466, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 06:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 06:59:36 --> Undefined variable: fetchdata
+in APPPATH/Controllers/Home.php on line 474.
+ 1 APPPATH/Controllers/Home.php(474): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: fetchdata', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 474, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 06:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 07:03:07 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/available-data.php on line 291.
+ 1 APPPATH/Views/front/available-data.php(291): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 291, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(481): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 07:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 07:04:04 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/available-data.php on line 291.
+ 1 APPPATH/Views/front/available-data.php(291): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 291, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(481): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 07:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 07:05:17 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/available-data.php on line 291.
+ 1 APPPATH/Views/front/available-data.php(291): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 291, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(480): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 07:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 07:07:24 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/available-data.php on line 291.
+ 1 APPPATH/Views/front/available-data.php(291): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 291, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(480): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 07:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 07:15:39 --> Undefined variable: fetchdata
+in APPPATH/Controllers/Home.php on line 460.
+ 1 APPPATH/Controllers/Home.php(460): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: fetchdata', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 460, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 07:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 07:18:25 --> Undefined variable: selectedData
+in APPPATH/Controllers/Home.php on line 462.
+ 1 APPPATH/Controllers/Home.php(462): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: selectedData', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 462, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 07:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 07:18:48 --> Undefined variable: programmeId
+in APPPATH/Views/front/available-data.php on line 662.
+ 1 APPPATH/Views/front/available-data.php(662): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: programmeId', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 662, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(467): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 07:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 07:21:24 --> Trying to get property 'amount' of non-object
+in APPPATH/Views/front/available-data.php on line 411.
+ 1 APPPATH/Views/front/available-data.php(411): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'amount\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 411, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(467): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 07:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 07:22:50 --> Undefined variable: programmeId
+in APPPATH/Views/front/available-data.php on line 662.
+ 1 APPPATH/Views/front/available-data.php(662): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: programmeId', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 662, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(467): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 07:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 07:26:47 --> Undefined variable: programmeId
+in APPPATH/Views/front/available-data.php on line 662.
+ 1 APPPATH/Views/front/available-data.php(662): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: programmeId', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 662, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(469): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 07:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 07:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 08:04:12 --> Undefined index: prId
+in APPPATH/Views/front/available-data.php on line 419.
+ 1 APPPATH/Views/front/available-data.php(419): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: prId', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 419, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(465): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 08:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 08:13:24 --> setcookie() expects parameter 2 to be string, array given
+in APPPATH/Controllers/Home.php on line 458.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'setcookie() expects parameter 2 to be string, array given', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 458, [...])
+ 2 APPPATH/Controllers/Home.php(458): setcookie('bucketItem', [...], 1693728804, '/')
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->storeToBucket()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 08:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 08:14:24 --> Undefined index: bucketItem
+in APPPATH/Controllers/Home.php on line 460.
+ 1 APPPATH/Controllers/Home.php(460): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: bucketItem', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 460, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->storeToBucket()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 08:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 08:25:48 --> setcookie() expects parameter 2 to be string, array given
+in APPPATH/Controllers/Home.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'setcookie() expects parameter 2 to be string, array given', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 474, [...])
+ 2 APPPATH/Controllers/Home.php(474): setcookie('bucketItem', [...], 1693729548, '/')
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->storeToBucket()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 08:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 08:26:52 --> setcookie() expects parameter 2 to be string, array given
+in APPPATH/Controllers/Home.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'setcookie() expects parameter 2 to be string, array given', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 474, [...])
+ 2 APPPATH/Controllers/Home.php(474): setcookie('bucketItem', [...], 1693729612, '/')
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->storeToBucket()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 08:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 08:27:00 --> setcookie() expects parameter 2 to be string, array given
+in APPPATH/Controllers/Home.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'setcookie() expects parameter 2 to be string, array given', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 474, [...])
+ 2 APPPATH/Controllers/Home.php(474): setcookie('bucketItem', [...], 1693729620, '/')
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->storeToBucket()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 08:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 08:27:30 --> setcookie() expects parameter 2 to be string, array given
+in APPPATH/Controllers/Home.php on line 465.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'setcookie() expects parameter 2 to be string, array given', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 465, [...])
+ 2 APPPATH/Controllers/Home.php(465): setcookie('bucketItem', [...], 1693729650, '/')
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->storeToBucket()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 08:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 08:31:42 --> Undefined index: bucketItems
+in APPPATH/Controllers/Home.php on line 458.
+ 1 APPPATH/Controllers/Home.php(458): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: bucketItems', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 458, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->storeToBucket()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 08:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 08:31:54 --> Undefined index: bucketItems
+in APPPATH/Controllers/Home.php on line 458.
+ 1 APPPATH/Controllers/Home.php(458): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: bucketItems', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 458, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->storeToBucket()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 08:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 08:33:42 --> Undefined index: bucketItems
+in APPPATH/Controllers/Home.php on line 468.
+ 1 APPPATH/Controllers/Home.php(468): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: bucketItems', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 468, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->storeToBucket()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 08:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 08:36:06 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH/Controllers/Home.php on line 457.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 457, [])
+ 2 APPPATH/Controllers/Home.php(457): json_decode([...])
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->storeToBucket()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 08:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 08:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 09:29:29 --> Undefined variable: formattedDate2
+in APPPATH/Views/front/available-data.php on line 464.
+ 1 APPPATH/Views/front/available-data.php(464): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: formattedDate2', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 464, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(453): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 09:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 09:42:44 --> Undefined variable: _COOKIES
+in APPPATH/Views/front/available-data.php on line 687.
+ 1 APPPATH/Views/front/available-data.php(687): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _COOKIES', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 687, [...])
+ 2 APPPATH/Views/front/available-data.php(469): trainerBucketExist('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09', '2023-09-13')
+ 3 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 6 APPPATH/Controllers/Home.php(453): view('front/available-data', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 09:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 09:42:58 --> Undefined variable: _COOKIES
+in APPPATH/Views/front/available-data.php on line 687.
+ 1 APPPATH/Views/front/available-data.php(687): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _COOKIES', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 687, [...])
+ 2 APPPATH/Views/front/available-data.php(469): trainerBucketExist('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09', '2023-09-13')
+ 3 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 6 APPPATH/Controllers/Home.php(453): view('front/available-data', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 09:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 09:46:16 --> Invalid argument supplied for foreach()
+in APPPATH/Views/front/available-data.php on line 693.
+ 1 APPPATH/Views/front/available-data.php(693): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 693, [...])
+ 2 APPPATH/Views/front/available-data.php(470): trainerBucketExist('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09', '2023-09-13')
+ 3 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 6 APPPATH/Controllers/Home.php(453): view('front/available-data', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 09:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 09:46:38 --> Invalid argument supplied for foreach()
+in APPPATH/Views/front/available-data.php on line 693.
+ 1 APPPATH/Views/front/available-data.php(693): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 693, [...])
+ 2 APPPATH/Views/front/available-data.php(470): trainerBucketExist('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09', '2023-09-13')
+ 3 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 6 APPPATH/Controllers/Home.php(453): view('front/available-data', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 09:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 09:48:15 --> Invalid argument supplied for foreach()
+in APPPATH/Views/front/available-data.php on line 693.
+ 1 APPPATH/Views/front/available-data.php(693): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 693, [...])
+ 2 APPPATH/Views/front/available-data.php(470): trainerBucketExist('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09', '2023-09-13')
+ 3 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 6 APPPATH/Controllers/Home.php(453): view('front/available-data', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 09:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 09:51:20 --> Trying to get property 'trainerId' of non-object
+in APPPATH/Views/front/available-data.php on line 697.
+ 1 APPPATH/Views/front/available-data.php(697): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'trainerId\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 697, [...])
+ 2 APPPATH/Views/front/available-data.php(470): trainerBucketExist('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09', '2023-09-13')
+ 3 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 6 APPPATH/Controllers/Home.php(453): view('front/available-data', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 09:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 09:51:35 --> Invalid argument supplied for foreach()
+in APPPATH/Views/front/available-data.php on line 695.
+ 1 APPPATH/Views/front/available-data.php(695): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 695, [...])
+ 2 APPPATH/Views/front/available-data.php(470): trainerBucketExist('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09', '2023-09-13')
+ 3 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 6 APPPATH/Controllers/Home.php(453): view('front/available-data', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 09:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 09:51:52 --> Invalid argument supplied for foreach()
+in APPPATH/Views/front/available-data.php on line 695.
+ 1 APPPATH/Views/front/available-data.php(695): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 695, [...])
+ 2 APPPATH/Views/front/available-data.php(470): trainerBucketExist('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09', '2023-09-13')
+ 3 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 6 APPPATH/Controllers/Home.php(453): view('front/available-data', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 09:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 09:55:48 --> Undefined property: stdClass::$date
+in APPPATH/Views/front/available-data.php on line 695.
+ 1 APPPATH/Views/front/available-data.php(695): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$date', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 695, [...])
+ 2 APPPATH/Views/front/available-data.php(470): trainerBucketExist('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09', '2023-09-13')
+ 3 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 6 APPPATH/Controllers/Home.php(453): view('front/available-data', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 09:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 09:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 10:05:22 --> Undefined variable: fetchdata
+in APPPATH/Controllers/Home.php on line 448.
+ 1 APPPATH/Controllers/Home.php(448): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: fetchdata', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 448, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 10:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 10:06:28 --> Undefined variable: selectedData
+in APPPATH/Controllers/Home.php on line 452.
+ 1 APPPATH/Controllers/Home.php(452): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: selectedData', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 452, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 10:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 10:06:49 --> Trying to get property 'amount' of non-object
+in APPPATH/Views/front/available-data.php on line 461.
+ 1 APPPATH/Views/front/available-data.php(461): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'amount\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 461, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(457): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 10:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 10:07:05 --> Trying to get property 'amount' of non-object
+in APPPATH/Views/front/available-data.php on line 461.
+ 1 APPPATH/Views/front/available-data.php(461): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'amount\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 461, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 5 APPPATH/Controllers/Home.php(457): view('front/available-data', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 10:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 10:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 11:13:58 --> Class 'App\Controllers\DateTime' not found
+in APPPATH/Controllers/Home.php on line 387.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 11:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 11:17:36 --> Undefined variable: dateTime
+in APPPATH/Controllers/Home.php on line 391.
+ 1 APPPATH/Controllers/Home.php(391): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dateTime', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 391, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 11:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 11:47:58 --> Undefined index: price_12
+in APPPATH/Controllers/Admin.php on line 456.
+ 1 APPPATH/Controllers/Admin.php(456): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: price_12', '/home/micodetest/public_html/swafewellness/app/Controllers/Admin.php', 456, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin->addTrainer()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 11:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 11:48:30 --> Undefined index: price_12
+in APPPATH/Controllers/Admin.php on line 456.
+ 1 APPPATH/Controllers/Admin.php(456): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: price_12', '/home/micodetest/public_html/swafewellness/app/Controllers/Admin.php', 456, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Admin->addTrainer()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 11:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 11:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 12:08:59 --> Undefined index: selectedId
+in APPPATH/Controllers/Home.php on line 434.
+ 1 APPPATH/Controllers/Home.php(434): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: selectedId', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 434, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 12:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 12:20:18 --> Undefined offset: 1
+in APPPATH/Controllers/Home.php on line 501.
+ 1 APPPATH/Controllers/Home.php(501): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 501, [...])
+ 2 [internal function]: App\Controllers\Home->App\Controllers\{closure}('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09aFBWMExPWU93UmozZE1lTDN3bG5Ddz09WnZCOHFrMTJaMHh1RjFCRDk3dk92UT092023-09-13')
+ 3 APPPATH/Controllers/Home.php(497): array_map(Object(Closure), [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 12:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 12:20:45 --> Undefined offset: 1
+in APPPATH/Controllers/Home.php on line 501.
+ 1 APPPATH/Controllers/Home.php(501): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 501, [...])
+ 2 [internal function]: App\Controllers\Home->App\Controllers\{closure}('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09aFBWMExPWU93UmozZE1lTDN3bG5Ddz09WnZCOHFrMTJaMHh1RjFCRDk3dk92UT092023-09-13')
+ 3 APPPATH/Controllers/Home.php(497): array_map(Object(Closure), [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 12:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 12:21:01 --> Undefined offset: 1
+in APPPATH/Controllers/Home.php on line 501.
+ 1 APPPATH/Controllers/Home.php(501): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 501, [...])
+ 2 [internal function]: App\Controllers\Home->App\Controllers\{closure}('V1c2ZTRxTWZWMUt5K0pmcFVTUzFqUT09aFBWMExPWU93UmozZE1lTDN3bG5Ddz09WnZCOHFrMTJaMHh1RjFCRDk3dk92UT092023-09-13')
+ 3 APPPATH/Controllers/Home.php(497): array_map(Object(Closure), [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 12:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 12:42:07 --> Undefined property: stdClass::$centerId
+in APPPATH/Views/front/available-data.php on line 699.
+ 1 APPPATH/Views/front/available-data.php(699): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$centerId', '/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php', 699, [...])
+ 2 APPPATH/Views/front/available-data.php(577): centerBucketExist('dG5pbThsWU0wTkZETW5hZ2dBTDdTUT09', '2023-09-12')
+ 3 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/available-data.php')
+ 4 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/available-data', [], true)
+ 6 APPPATH/Controllers/Home.php(458): view('front/available-data', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 12:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 12:45:37 --> Undefined index: trainerId
+in APPPATH/Controllers/Home.php on line 490.
+ 1 APPPATH/Controllers/Home.php(490): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: trainerId', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 490, [...])
+ 2 [internal function]: App\Controllers\Home->App\Controllers\{closure}([...])
+ 3 APPPATH/Controllers/Home.php(489): array_map(Object(Closure), [...])
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 12:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 12:52:54 --> Invalid argument supplied for foreach()
+in APPPATH/Views/front/checkout.php on line 394.
+ 1 APPPATH/Views/front/checkout.php(394): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 394, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(519): view('front/checkout')
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 12:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 12:56:36 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/checkout.php on line 401.
+ 1 APPPATH/Views/front/checkout.php(401): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 401, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(520): view('front/checkout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 12:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 12:57:25 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/checkout.php on line 403.
+ 1 APPPATH/Views/front/checkout.php(403): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 403, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(520): view('front/checkout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 12:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 12:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:03:49 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/checkout.php on line 418.
+ 1 APPPATH/Views/front/checkout.php(418): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 418, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(520): view('front/checkout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:04:19 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/checkout.php on line 415.
+ 1 APPPATH/Views/front/checkout.php(415): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 415, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(520): view('front/checkout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:08:44 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/checkout.php on line 415.
+ 1 APPPATH/Views/front/checkout.php(415): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 415, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(521): view('front/checkout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:08:56 --> Undefined index: bucketItems2
+in APPPATH/Controllers/Home.php on line 487.
+ 1 APPPATH/Controllers/Home.php(487): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: bucketItems2', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 487, [])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:09:05 --> Undefined index: bucketItems2
+in APPPATH/Controllers/Home.php on line 487.
+ 1 APPPATH/Controllers/Home.php(487): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: bucketItems2', '/home/micodetest/public_html/swafewellness/app/Controllers/Home.php', 487, [])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:13:00 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/checkout.php on line 415.
+ 1 APPPATH/Views/front/checkout.php(415): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 415, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(522): view('front/checkout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:13:51 --> The route for "https://micodetest.com/swafewellness/" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://micodetest.com/swafewellness/')
+ 2 SYSTEMPATH/Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Home.php(526): redirect('https://micodetest.com/swafewellness/')
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:14:20 --> The route for "https://micodetest.com/swafewellness/" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://micodetest.com/swafewellness/')
+ 2 SYSTEMPATH/Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Home.php(526): redirect('https://micodetest.com/swafewellness/')
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:14:55 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/checkout.php on line 415.
+ 1 APPPATH/Views/front/checkout.php(415): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 415, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(522): view('front/checkout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:15:31 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/checkout.php on line 416.
+ 1 APPPATH/Views/front/checkout.php(416): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 416, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(522): view('front/checkout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:23:02 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/checkout.php on line 416.
+ 1 APPPATH/Views/front/checkout.php(416): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 416, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(522): view('front/checkout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:23:27 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/checkout.php on line 416.
+ 1 APPPATH/Views/front/checkout.php(416): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 416, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(522): view('front/checkout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:23:30 --> The route for "https://micodetest.com/swafewellness/" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://micodetest.com/swafewellness/')
+ 2 SYSTEMPATH/Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Home.php(525): redirect('https://micodetest.com/swafewellness/')
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-02 13:29:44 --> Trying to get property 'image' of non-object
+in APPPATH/Views/front/checkout.php on line 416.
+ 1 APPPATH/Views/front/checkout.php(416): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'image\' of non-object', '/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php', 416, [...])
+ 2 SYSTEMPATH/View/View.php(224): include('/home/micodetest/public_html/swafewellness/app/Views/front/checkout.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('front/checkout', [], true)
+ 5 APPPATH/Controllers/Home.php(522): view('front/checkout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-02 13:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-02 13:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

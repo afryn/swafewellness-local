@@ -1,0 +1,1616 @@
+CRITICAL - 2023-10-19 00:27:16 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 00:28:17 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 01:18:32 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 01:19:35 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 01:21:07 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 01:35:22 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 01:53:35 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 01:54:49 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 02:19:49 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 02:39:49 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 04:45:52 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 04:59:54 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 05:07:53 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 05:17:56 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 06:04:55 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 06:17:47 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 06:18:57 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 06:23:19 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:04:58 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(366): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:04:58 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(366): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:06:09 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(366): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:06:09 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(366): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:07:35 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(367): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:07:35 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(367): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:07:56 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(368): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:07:56 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(368): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:08:12 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(368): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:08:12 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(368): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:09:01 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(368): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:09:01 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(368): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 07:09:43 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:09:45 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(368): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:09:45 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(368): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:10:11 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(367): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:10:11 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(367): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 07:12:44 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:15:46 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(367): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:15:46 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(367): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:16:18 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(367): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:16:18 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(367): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:16:33 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(368): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:16:33 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(368): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:17:21 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(368): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:17:21 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(368): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:17:44 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(366): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:17:44 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(366): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:18:09 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(367): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:18:09 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(367): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:18:27 --> mysqli_sql_exception: Table 'swafewellness_main.temp_otp' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(367): _getWhere('temp_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:18:27 --> Table 'swafewellness_main.temp_otp' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temp_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temp_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(367): _getWhere('temp_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:19:23 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(367): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:19:23 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2102\'
+AND `is_used` = \'n\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `is_used` = :is_used:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(367): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:22:54 --> mysqli_sql_exception: Column 'code' cannot be null in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(370): _insert('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:22:54 --> Column 'code' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'password-change\', \'2023-10-19 07:22:54\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'password-change\', \'2023-10-19 07:22:54\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'password-change\', \'2023-10-19 07:22:54\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (:code:, :email:, :reason:, :created_at:)', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/ApiController.php(370): _insert('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:27:11 --> mysqli_sql_exception: Column 'code' cannot be null in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(370): _insert('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:27:11 --> Column 'code' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'reset password\', \'2023-10-19 07:27:11\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'reset password\', \'2023-10-19 07:27:11\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'reset password\', \'2023-10-19 07:27:11\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (:code:, :email:, :reason:, :created_at:)', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/ApiController.php(370): _insert('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:27:18 --> mysqli_sql_exception: Column 'code' cannot be null in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(370): _insert('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:27:18 --> Column 'code' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'reset password\', \'2023-10-19 07:27:18\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'reset password\', \'2023-10-19 07:27:18\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'reset password\', \'2023-10-19 07:27:18\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (:code:, :email:, :reason:, :created_at:)', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/ApiController.php(370): _insert('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:37:49 --> mysqli_sql_exception: Column 'code' cannot be null in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(371): _insert('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:37:49 --> Column 'code' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'reset password\', \'2023-10-19 07:37:49\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'reset password\', \'2023-10-19 07:37:49\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'reset password\', \'2023-10-19 07:37:49\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (:code:, :email:, :reason:, :created_at:)', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/ApiController.php(371): _insert('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:38:32 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:38:32 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:40:27 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:40:27 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:43:35 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:43:35 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:44:03 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:44:03 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:45:06 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(376): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:45:06 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(376): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:46:07 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:46:07 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:46:14 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:46:14 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:46:25 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:46:25 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:46:39 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:46:39 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:47:17 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:47:17 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:47:31 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:47:31 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:48:25 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:48:25 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:49:00 --> mysqli_sql_exception: Unknown column 'otp' in 'where clause' in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(374): _getWhere('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:49:00 --> Unknown column 'otp' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sw_otp`
+WHERE `email` = \'afreen@maishainfotech.com\'
+AND `otp` = \'2041\'
+AND `reason` = \'reset password\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sw_otp`
+WHERE `email` = :email:
+AND `otp` = :otp:
+AND `reason` = :reason:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/ApiController.php(374): _getWhere('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:50:35 --> mysqli_sql_exception: Table 'swafewellness_main.px_userdata' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `px_user...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `px_user...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `px_user...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `px_user...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(207): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(381): _updateWhere('px_userdata', Array, Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:50:35 --> Table 'swafewellness_main.px_userdata' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `px_userdata` SET `password` = \'QUVDTWpybmdwNUFTeitPdHpQc3BQdz09\'
+WHERE `email` = \'afreen@maishainfotech.com\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `px_userdata` SET `password` = \'QUVDTWpybmdwNUFTeitPdHpQc3BQdz09\'
+WHERE `email` = \'afreen@maishainfotech.com\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `px_userdata` SET `password` = \'QUVDTWpybmdwNUFTeitPdHpQc3BQdz09\'
+WHERE `email` = \'afreen@maishainfotech.com\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `px_userdata` SET `password` = :password:
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(207): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH/Controllers/ApiController.php(381): _updateWhere('px_userdata', [...], [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:50:58 --> mysqli_sql_exception: Table 'swafewellness_main.px_userdata' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `px_user...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `px_user...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `px_user...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `px_user...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(207): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(381): _updateWhere('px_userdata', Array, Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:50:58 --> Table 'swafewellness_main.px_userdata' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `px_userdata` SET `password` = \'QUVDTWpybmdwNUFTeitPdHpQc3BQdz09\'
+WHERE `email` = \'afreen@maishainfotech.com\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `px_userdata` SET `password` = \'QUVDTWpybmdwNUFTeitPdHpQc3BQdz09\'
+WHERE `email` = \'afreen@maishainfotech.com\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `px_userdata` SET `password` = \'QUVDTWpybmdwNUFTeitPdHpQc3BQdz09\'
+WHERE `email` = \'afreen@maishainfotech.com\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `px_userdata` SET `password` = :password:
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(207): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH/Controllers/ApiController.php(381): _updateWhere('px_userdata', [...], [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 07:51:42 --> mysqli_sql_exception: Table 'swafewellness_main.px_userdata' doesn't exist in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `px_user...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `px_user...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `px_user...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `px_user...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(207): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(381): _updateWhere('px_userdata', Array, Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-19 07:51:42 --> Table 'swafewellness_main.px_userdata' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('UPDATE `px_userdata` SET `password` = \'QUVDTWpybmdwNUFTeitPdHpQc3BQdz09\'
+WHERE `email` = \'afreen@maishainfotech.com\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `px_userdata` SET `password` = \'QUVDTWpybmdwNUFTeitPdHpQc3BQdz09\'
+WHERE `email` = \'afreen@maishainfotech.com\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `px_userdata` SET `password` = \'QUVDTWpybmdwNUFTeitPdHpQc3BQdz09\'
+WHERE `email` = \'afreen@maishainfotech.com\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `px_userdata` SET `password` = :password:
+WHERE `email` = :email:', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(207): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH/Controllers/ApiController.php(381): _updateWhere('px_userdata', [...], [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->changePassword()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 09:09:44 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 09:19:37 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 09:21:55 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 09:30:48 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 09:32:37 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 12:01:45 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 12:36:54 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 16:11:01 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 17:08:46 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 17:28:10 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 17:48:27 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 18:00:59 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 19:18:46 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 19:25:37 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 19:37:27 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 19:37:27 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 21:12:05 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 22:51:12 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 23:06:16 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 23:11:04 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()

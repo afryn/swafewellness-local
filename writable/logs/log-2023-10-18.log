@@ -1,0 +1,561 @@
+CRITICAL - 2023-10-18 07:39:04 --> Class 'PHPMailer' not found
+in APPPATH/Helpers/dev_helper.php on line 748.
+ 1 APPPATH/Controllers/ApiController.php(95): sendEmail('afreen@maishainfotech.com', 'Account Verification', '<h2>You are receiving this message to verify your account.</h2><p>OTP: 9999
+    			<p>If You did not make this request kindly ignore!</p><P class=\'pj\'>
+    			<h2>Kind Regard: Swafe Wellness</h2>
+    			</p>')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:39:29 --> Class 'PHPMailer' not found
+in APPPATH/Helpers/dev_helper.php on line 748.
+ 1 APPPATH/Controllers/ApiController.php(95): sendEmail('afreen@maishainfotech.com', 'Account Verification', '<h2>You are receiving this message to verify your account.</h2><p>OTP: 9999
+    			<p>If You did not make this request kindly ignore!</p><P class=\'pj\'>
+    			<h2>Kind Regard: Swafe Wellness</h2>
+    			</p>')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:39:56 --> Class 'PHPMailer' not found
+in APPPATH/Helpers/dev_helper.php on line 748.
+ 1 APPPATH/Controllers/ApiController.php(96): sendEmail('afreen@maishainfotech.com', 'Account Verification', '<h2>You are receiving this message to verify your account.</h2><p>OTP: 9999
+    			<p>If You did not make this request kindly ignore!</p><P class=\'pj\'>
+    			<h2>Kind Regard: Swafe Wellness</h2>
+    			</p>')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:40:13 --> Class 'PHPMailer' not found
+in APPPATH/Helpers/dev_helper.php on line 748.
+ 1 APPPATH/Controllers/ApiController.php(96): sendEmail('afreen@maishainfotech.com', 'Account Verification', '<h2>You are receiving this message to verify your account.</h2><p>OTP: 9999
+    			<p>If You did not make this request kindly ignore!</p><P class=\'pj\'>
+    			<h2>Kind Regard: Swafe Wellness</h2>
+    			</p>')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 07:40:49 --> Class 'PHPMailer' not found
+in APPPATH/Helpers/dev_helper.php on line 748.
+ 1 APPPATH/Controllers/ApiController.php(96): sendEmail('afreen@maishainfotech.com', 'Account Verification', '<h2>You are receiving this message to verify your account.</h2><p>OTP: 10000
+    			<p>If You did not make this request kindly ignore!</p><P class=\'pj\'>
+    			<h2>Kind Regard: Swafe Wellness</h2>
+    			</p>')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:16:12 --> Cannot redeclare isLastOtpValid_v2() (previously declared in /home/swafewellness/public_html/app/Helpers/dev_helper.php:20)
+in APPPATH/Helpers/dev_helper.php on line 569.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-18 08:17:56 --> Argument 3 passed to isLastOtpValid_v2() must be of the type int, null given, called in /home/swafewellness/public_html/app/Controllers/ApiController.php on line 179
+in APPPATH/Helpers/dev_helper.php on line 569.
+ 1 APPPATH/Controllers/ApiController.php(179): isLastOtpValid_v2('afreen@maishainfotech.com', 15, null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->verification()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:18:28 --> Argument 3 passed to isLastOtpValid_v2() must be of the type int, null given, called in /home/swafewellness/public_html/app/Controllers/ApiController.php on line 179
+in APPPATH/Helpers/dev_helper.php on line 569.
+ 1 APPPATH/Controllers/ApiController.php(179): isLastOtpValid_v2('afreen@maishainfotech.com', 15, null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->verification()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:18:51 --> Argument 3 passed to isLastOtpValid_v2() must be of the type int, null given, called in /home/swafewellness/public_html/app/Controllers/ApiController.php on line 179
+in APPPATH/Helpers/dev_helper.php on line 569.
+ 1 APPPATH/Controllers/ApiController.php(179): isLastOtpValid_v2('afreen@maishainfotech.com', 15, null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->verification()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:19:40 --> Argument 3 passed to isLastOtpValid_v2() must be of the type int, null given, called in /home/swafewellness/public_html/app/Controllers/ApiController.php on line 179
+in APPPATH/Helpers/dev_helper.php on line 569.
+ 1 APPPATH/Controllers/ApiController.php(179): isLastOtpValid_v2('afreen@maishainfotech.com', 15, null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->verification()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:20:02 --> Argument 3 passed to isLastOtpValid_v2() must be of the type int, null given, called in /home/swafewellness/public_html/app/Controllers/ApiController.php on line 180
+in APPPATH/Helpers/dev_helper.php on line 569.
+ 1 APPPATH/Controllers/ApiController.php(180): isLastOtpValid_v2('afreen@maishainfotech.com', 15, null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->verification()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:20:24 --> Argument 3 passed to isLastOtpValid_v2() must be of the type int, null given, called in /home/swafewellness/public_html/app/Controllers/ApiController.php on line 180
+in APPPATH/Helpers/dev_helper.php on line 569.
+ 1 APPPATH/Controllers/ApiController.php(180): isLastOtpValid_v2('afreen@maishainfotech.com', 15, null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->verification()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:20:43 --> Argument 3 passed to isLastOtpValid_v2() must be of the type int, null given, called in /home/swafewellness/public_html/app/Controllers/ApiController.php on line 180
+in APPPATH/Helpers/dev_helper.php on line 569.
+ 1 APPPATH/Controllers/ApiController.php(180): isLastOtpValid_v2('afreen@maishainfotech.com', 15, null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->verification()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 08:21:39 --> Argument 3 passed to isLastOtpValid_v2() must be of the type int, null given, called in /home/swafewellness/public_html/app/Controllers/ApiController.php on line 184
+in APPPATH/Helpers/dev_helper.php on line 569.
+ 1 APPPATH/Controllers/ApiController.php(184): isLastOtpValid_v2('afreen@maishainfotech.com', 15, null)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->verification()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 08:22:32 --> mysqli_sql_exception: Column 'code' cannot be null in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(102): _insert('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 08:22:32 --> Column 'code' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:22:32\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:22:32\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:22:32\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (:code:, :email:, :reason:, :created_at:)', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/ApiController.php(102): _insert('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 08:23:44 --> mysqli_sql_exception: Column 'code' cannot be null in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(91): _insert('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 08:23:44 --> Column 'code' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:23:44\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:23:44\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:23:44\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (:code:, :email:, :reason:, :created_at:)', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/ApiController.php(91): _insert('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 08:23:57 --> mysqli_sql_exception: Column 'code' cannot be null in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(89): _insert('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 08:23:57 --> Column 'code' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:23:57\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:23:57\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:23:57\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (:code:, :email:, :reason:, :created_at:)', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/ApiController.php(89): _insert('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 08:24:59 --> mysqli_sql_exception: Column 'code' cannot be null in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(91): _insert('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 08:24:59 --> Column 'code' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:24:59\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:24:59\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:24:59\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (:code:, :email:, :reason:, :created_at:)', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/ApiController.php(91): _insert('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 08:25:27 --> mysqli_sql_exception: Column 'code' cannot be null in /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw...', 0)
+#1 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw...')
+#2 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw...')
+#3 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw...', Array, false)
+#4 /home/swafewellness/public_html/app/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/swafewellness/public_html/app/Controllers/ApiController.php(91): _insert('sw_otp', Array)
+#6 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+#7 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 /home/swafewellness/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/swafewellness/public_html/index.php(69): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-18 08:25:27 --> Column 'code' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:25:27\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:25:27\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (NULL, \'afreen@maishainfotech.com\', \'signup\', \'2023-10-18 08:25:27\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sw_otp` (`code`, `email`, `reason`, `created_at`) VALUES (:code:, :email:, :reason:, :created_at:)', [...], false)
+ 5 APPPATH/Helpers/query_helper.php(229): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/ApiController.php(91): _insert('sw_otp', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->signUp()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 09:41:14 --> Call to undefined function App\Controllers\encrypt_decrypt()
+in APPPATH/Controllers/ApiController.php on line 280.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->verification()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 09:47:26 --> The route for "homepage/index" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('homepage/index')
+ 2 SYSTEMPATH/Common.php(876): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/ApiController.php(122): redirect('homepage/index')
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->loginToken('WWRaVnZoL1VEOEJnbUhobVVqcUVYZXNPcW5GQjBXYUluV2prZWp3M01uSDJpY0JXaFpna05KOVE4QkZwbVkzRWJ1MHVFV2E0d3d4bVpLOG12TWp1elk4Mlp6bDhrSXRrbXYzRmVKUml1NmgwL1BlSE5wdG54WkhFdXBPUDh0QlZzM1hCV3NhTFNGWWNPK1dHYUdQbU1zN2tlWEs2YnNwVWErYjl3M1B4OVJrPQ=="')
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 09:49:34 --> Call to a member function set_userdata() on null
+in APPPATH/Controllers/ApiController.php on line 110.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->loginToken('WWRaVnZoL1VEOEJnbUhobVVqcUVYZXNPcW5GQjBXYUluV2prZWp3M01uSDJpY0JXaFpna05KOVE4QkZwbVkzRWJ1MHVFV2E0d3d4bVpLOG12TWp1elk4Mlp6bDhrSXRrbXYzRmVKUml1NmgwL1BlSE5wdG54WkhFdXBPUDh0QlZzM1hCV3NhTFNGWWNPK1dHYUdQbU1zN2tlWEs2YnNwVWErYjl3M1B4OVJrPQ=="')
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 09:50:20 --> Call to a member function set() on null
+in APPPATH/Controllers/ApiController.php on line 110.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\ApiController->loginToken('WWRaVnZoL1VEOEJnbUhobVVqcUVYZXNPcW5GQjBXYUluV2prZWp3M01uSDJpY0JXaFpna05KOVE4QkZwbVkzRWJ1MHVFV2E0d3d4bVpLOG12TWp1elk4Mlp6bDhrSXRrbXYzRmVKUml1NmgwL1BlSE5wdG54WkhFdXBPUDh0QlZzM1hCV3NhTFNGWWNPK1dHYUdQbU1zN2tlWEs2YnNwVWErYjl3M1B4OVJrPQ=="')
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-18 11:27:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-18 11:27:28 --> 220 smtp.gmail.com ESMTP h29-20020aa796dd000000b00686b649cdd0sm3076367pfq.86 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK h29-20020aa796dd000000b00686b649cdd0sm3076367pfq.86 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. h29-20020aa796dd000000b00686b649cdd0sm3076367pfq.86 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. h29-20020aa796dd000000b00686b649cdd0sm3076367pfq.86 - gsmtp
+
+quit: 221 2.0.0 closing connection h29-20020aa796dd000000b00686b649cdd0sm3076367pfq.86 - gsmtp
+
+ERROR - 2023-10-18 11:34:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-18 11:34:00 --> 220 smtp.gmail.com ESMTP i126-20020a639d84000000b005b83bc255fbsm328801pgd.71 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK i126-20020a639d84000000b005b83bc255fbsm328801pgd.71 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. i126-20020a639d84000000b005b83bc255fbsm328801pgd.71 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. i126-20020a639d84000000b005b83bc255fbsm328801pgd.71 - gsmtp
+
+quit: 221 2.0.0 closing connection i126-20020a639d84000000b005b83bc255fbsm328801pgd.71 - gsmtp
+
+ERROR - 2023-10-18 11:35:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-18 11:35:08 --> 220 smtp.gmail.com ESMTP z4-20020a170902708400b001b9da8b4eb7sm3311401plk.35 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK z4-20020a170902708400b001b9da8b4eb7sm3311401plk.35 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. z4-20020a170902708400b001b9da8b4eb7sm3311401plk.35 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. z4-20020a170902708400b001b9da8b4eb7sm3311401plk.35 - gsmtp
+
+quit: 221 2.0.0 closing connection z4-20020a170902708400b001b9da8b4eb7sm3311401plk.35 - gsmtp
+
+ERROR - 2023-10-18 11:35:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-18 11:35:59 --> 220 smtp.gmail.com ESMTP e3-20020a656883000000b005b628aa2a8dsm1064542pgt.69 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK e3-20020a656883000000b005b628aa2a8dsm1064542pgt.69 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. e3-20020a656883000000b005b628aa2a8dsm1064542pgt.69 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. e3-20020a656883000000b005b628aa2a8dsm1064542pgt.69 - gsmtp
+
+quit: 221 2.0.0 closing connection e3-20020a656883000000b005b628aa2a8dsm1064542pgt.69 - gsmtp
+
+ERROR - 2023-10-18 11:50:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-18 11:50:07 --> 220 smtp.gmail.com ESMTP e7-20020a17090301c700b001bfd92ec592sm3309680plh.292 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK e7-20020a17090301c700b001bfd92ec592sm3309680plh.292 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. e7-20020a17090301c700b001bfd92ec592sm3309680plh.292 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. e7-20020a17090301c700b001bfd92ec592sm3309680plh.292 - gsmtp
+
+quit: 221 2.0.0 closing connection e7-20020a17090301c700b001bfd92ec592sm3309680plh.292 - gsmtp
+
+ERROR - 2023-10-18 11:50:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-18 11:50:43 --> 220 smtp.gmail.com ESMTP jw11-20020a170903278b00b001c5f0fe64c2sm3334948plb.56 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [181.215.242.161]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK jw11-20020a170903278b00b001c5f0fe64c2sm3334948plb.56 - gsmtp
+
+to: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. jw11-20020a170903278b00b001c5f0fe64c2sm3334948plb.56 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error. Please visit
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications for more information. jw11-20020a170903278b00b001c5f0fe64c2sm3334948plb.56 - gsmtp
+
+quit: 221 2.0.0 closing connection jw11-20020a170903278b00b001c5f0fe64c2sm3334948plb.56 - gsmtp
+
+CRITICAL - 2023-10-18 17:59:12 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 17:59:16 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:24:49 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 18:28:50 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 21:07:18 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 21:10:18 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 21:14:20 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 21:36:51 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 21:40:15 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 21:53:03 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 22:25:51 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 22:49:27 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 22:52:18 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:14:34 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 23:25:21 --> Call to a member function format() on bool
+in APPPATH/Controllers/Home.php on line 418.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->checkAvailability()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
